@@ -10,3 +10,10 @@ O sistema permite:
 - Fazer buscas tanto nas categorias dos jogos quanto nas conexões dos jogadores.
 ---
 
+
+**Etapas do Desenvolvimento**
+# Etapa 1 — Classe Nó da Árvore Binária
+- Criamos uma classe chamada `No`, que representa cada nó da árvore.
+- Cada nó possui:
+  - Um valor (nome da categoria).
+  - Referências para a esquerda e para a direita.
