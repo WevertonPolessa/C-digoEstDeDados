@@ -17,3 +17,19 @@ O sistema permite:
 - Cada nó possui:
   - Um valor (nome da categoria).
   - Referências para a esquerda e para a direita.
+
+# Etapa 2 — Montagem da Árvore Binária
+- Montamos a árvore com as seguintes categorias:
+  - Raiz: Jogos
+    - Esquerda: Ação
+      - Esquerda: FPS
+      - Direita: Luta
+    - Direita: Estratégia
+      - Esquerda: Puzzle
+      - Direita: Simulação
+
+# Etapa 3 — Implementação da busca na árvore binária e impressão das categorias da árvore
+Criamos uma função para buscar uma categoria na árvore binária.
+Se o nó buscado for encontrado, retorna verdadeiro.
+Se não for encontrado, retorna falso.
+
