@@ -27,3 +27,15 @@ def imprimir_categorias(no):
         imprimir_categorias(no.esquerda)
         print(f"- {no.valor}")
         imprimir_categorias(no.direita)
+
+
+jogos_por_categoria = {
+    "FPS": ["Counter-Strike", "Valorant", "Call of Duty"],
+    "Luta": ["Street Fighter", "Mortal Kombat", "Tekken"],
+    "Ação": ["GTA V", "Assassin's Creed", "Spider-Man"],
+    "Puzzle": ["Tetris", "Candy Crush", "Portal"],
+    "Simulação": ["The Sims", "SimCity", "Flight Simulator"],
+    "Estratégia": ["Age of Empires", "Clash of Clans", "Civilization VI"],
+    "Jogos": ["Jogo Genérico 1", "Jogo Genérico 2"]
+}
+

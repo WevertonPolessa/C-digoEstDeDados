@@ -33,3 +33,7 @@ Criamos uma função para buscar uma categoria na árvore binária.
 Se o nó buscado for encontrado, retorna verdadeiro.
 Se não for encontrado, retorna falso.
 
+# Etapa 4 — Cadastro dos jogos por categoria
+Criamos um dicionário chamado jogos_por_categoria que armazena uma lista de jogos para cada categoria que existe na árvore.
+
+
