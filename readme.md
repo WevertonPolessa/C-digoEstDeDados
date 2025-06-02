@@ -71,6 +71,29 @@ Consultar conexões entre dois jogadores da rede.
 
 Sair do programa.
 
+# 🧠 Tecnologias Utilizadas
+
+Python
+
+Estrutura de Dados:
+
+Árvore Binária
+
+Grafos (Busca em Largura - BFS)
+
+# 🎯 Objetivo do Projeto
+
+Simular uma plataforma de jogos utilizando conceitos de Estrutura de Dados.
+
+Aplicar na prática o uso de árvore binária para organização de categorias e grafos para representação de redes.
+
+# 🚀 Possíveis Melhorias Futuras
+
+Permitir cadastrar novas categorias e novos jogos.
+
+Tornar a rede de jogadores editável (adicionar e remover conexões).
+
+Implementar uma interface gráfica.
 
 
 
