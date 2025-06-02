@@ -35,5 +35,7 @@ Se não for encontrado, retorna falso.
 
 # Etapa 4 — Cadastro dos jogos por categoria
 Criamos um dicionário chamado jogos_por_categoria que armazena uma lista de jogos para cada categoria que existe na árvore.
+Isso facilita para o usuário visualizar as opções disponíveis.
+
 
 
