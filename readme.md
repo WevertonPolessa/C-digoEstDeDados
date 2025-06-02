@@ -53,6 +53,13 @@ Implementamos um grafo para simular a rede de amizades entre jogadores.
 
 Cada jogador é um vértice e suas conexões (amizades) são as arestas.
 
+# Etapa 7 — Busca de Conexões no Grafo
+
+Criamos uma busca em largura (BFS) que permite verificar se dois jogadores estão conectados dentro da rede de amizades.
+
+Exibe o caminho da conexão (ex.: Ana -> Bruno -> Carla).
+
+
 
 
 
