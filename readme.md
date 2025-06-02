@@ -47,6 +47,12 @@ FPS: Counter-Strike, Valorant, Call of Duty
 
 Puzzle: Tetris, Candy Crush, Portal.
 
+# Etapa 6 — Grafo para Rede de Jogadores
+
+Implementamos um grafo para simular a rede de amizades entre jogadores.
+
+Cada jogador é um vértice e suas conexões (amizades) são as arestas.
+
 
 
 
