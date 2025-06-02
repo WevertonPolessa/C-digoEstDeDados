@@ -37,7 +37,7 @@ Se não for encontrado, retorna falso.
 Criamos um dicionário chamado jogos_por_categoria que armazena uma lista de jogos para cada categoria que existe na árvore.
 Isso facilita para o usuário visualizar as opções disponíveis.
 
-#Etapa 5 — Cadastro dos Jogos por Categoria
+# Etapa 5 — Cadastro dos Jogos por Categoria
 
 Criamos um dicionário chamado jogos_por_categoria que armazena uma lista de jogos para cada categoria existente na árvore.
 
