@@ -59,6 +59,19 @@ Criamos uma busca em largura (BFS) que permite verificar se dois jogadores estã
 
 Exibe o caminho da conexão (ex.: Ana -> Bruno -> Carla).
 
+# Etapa 8 — Menu Interativo
+
+Desenvolvemos um menu simples e intuitivo que permite:
+
+Buscar uma categoria de jogo e ver os jogos disponíveis nela.
+
+Selecionar um jogo específico da lista.
+
+Consultar conexões entre dois jogadores da rede.
+
+Sair do programa.
+
+
 
 
 
