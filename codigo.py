@@ -1,4 +1,6 @@
 #ARVORE BINÁRIA - CATEGORIA DOS JOGOS
+from collections import deque
+
 class No: 
     def __init__(self, valor):
         self.valor = valor
@@ -39,3 +41,27 @@ jogos_por_categoria = {
     "Jogos": ["Jogo Genérico 1", "Jogo Genérico 2"]
 }
 
+rede_jogadores = {
+    "Ana": ["Bruno", "Diego"],
+    "Bruno": ["Ana", "Carla"],
+    "Carla": ["Bruno", "Diego"],
+    "Diego": ["Ana", "Carla"],
+    "Lucas": ["Fernanda"],
+    "Fernanda": ["Lucas"]
+}
+
+def buscar_conexao(inicio, destino):
+    fila = deque()
+    fila.append((inicio, [inicio]))
+    visitados = {inicio} # Para evitar ciclos e caminhos redundantes
+
+    while fila:
+        atual, caminho = fila.popleft()
+        if atual == destino:
+            return caminho
+        for amigo in rede_jogadores.get(atual, []):
+            if amigo not in visitados:
+                visitados.add(amigo)
+                fila.append((amigo, caminho + [amigo]))
+    
+    return None
